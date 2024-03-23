@@ -1,9 +1,9 @@
-# Weather-Forecasting
+# Weather-Forecasting 🌤️
 
 Made as an assignment for Industrial Management Class.
 
 ## Author
-Ahmad Zaki Akmal - 21/480179/TK/52981
+**Ahmad Zaki Akmal** - 21/480179/TK/52981
 
 ## Disclaimer
 - All data owned by [Badan Meterologi, Klimatologi, dan Geofisika (BMKG)](https://bmkg.go.id).
