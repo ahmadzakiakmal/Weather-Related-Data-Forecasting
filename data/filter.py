@@ -10,5 +10,5 @@ def copy_csv(input_file, output_file, city):
               writer.writerow(row)             
 
 city = input("Enter city name: ")
-copy_csv("./data/join.csv", "./data/" + city + ".csv", city)
+copy_csv("./data/join.csv", "./data/filtered/" + city + ".csv", city)
 
