@@ -11,7 +11,7 @@ df.set_index('datetime', inplace=True)
 
 rolling_window = 4
 df['temperature'] = df.iloc[:, 6]
-print(df['temperature'])
+#print(df['temperature'])
 df['rolling_avg'] = df['temperature'].rolling(window=rolling_window, center=False).mean()
 
 plt.figure(figsize=(14, 7))
