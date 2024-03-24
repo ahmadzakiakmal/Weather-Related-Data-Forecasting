@@ -5,10 +5,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
-df_updated = pd.read_csv('./data/filtered/Yogyakarta.csv')
+df = pd.read_csv('./data/filtered/Yogyakarta.csv')
 
-X_humidity = df_updated[['humidity']].values  # Feature: Humidity
-y_temperature = df_updated['tempC'].values  # Target: Temperature (Celsius)
+X_humidity = df[['humidity']].values  # Feature: Humidity
+y_temperature = df['tempC'].values  # Target: Temperature (Celsius)
 
 X_train_hum, X_test_hum, y_train_temp, y_test_temp = train_test_split(X_humidity, y_temperature, test_size=0.2, random_state=42)
 
@@ -45,6 +45,11 @@ except ValueError as e:
 if valid_input:
     predicted_temperature_example = predict_temperature(humidity_example)
     print(f'Predicted temperature at {humidity_example}% humidity: {predicted_temperature_example}°C')
+
+    a = model_humidity.coef_
+    b = model_humidity.intercept_
+
+    print(f"Rumus Regresi Linear: y = {a[0]}x + {b}")
 
     plt.scatter(humidity_example, predicted_temperature_example, color='green', label=f'Predicted Temp at {humidity_example}% Humidity', marker='x', s=100)
 
