@@ -13,3 +13,7 @@ Made as an assignment for Industrial Management Class.
 # Quantitative Time Series Method
 
 <img src="./images/QuantitativeTimeSeries.png">
+
+# Quantitative Causal Method
+
+<img src="./images/QuantitativeCausal.png">
