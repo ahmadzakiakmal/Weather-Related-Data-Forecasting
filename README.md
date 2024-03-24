@@ -12,4 +12,4 @@ Made as an assignment for Industrial Management Class.
 
 # Quantitative Time Series Method
 
-<img src="./images/QuantitativeTimeSeries.png" width="500">
+<img src="./images/QuantitativeTimeSeries.png">
