@@ -1,4 +1,4 @@
-# Weather-Forecasting 🌤️
+# Weather-Related-Data-Forecasting 🌤️
 
 Made as an assignment for Industrial Management Class.
 
